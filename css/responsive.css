@@ -1,0 +1,1054 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media screen and (max-width: 1919px){
+
+	/*===первый===*/
+	.header {
+		padding-left: calc((100vw - 1600px) / 2 + 110px);
+	}
+	.main__main-information {
+		margin-left: 600px;
+		margin-bottom: 243px;
+	}
+
+
+	/*=====стрелка==*/
+
+	.slide__arrow {
+		bottom: 45px;
+	}
+
+	/*====услуги====*/
+
+	.service-box__item-wr-wr {
+		width: 220px;
+		height: 130px;
+		padding: 15px 10px 0 10px;
+	}
+	.service-box__item-text {
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.service-box__item-img {
+		bottom: 10px;
+		left: 10px;
+	}
+	.service__title {
+		margin-bottom: 20px;
+	}
+	.service .service-box__item .service-box__item-img-abs {
+		width: 769px;
+		height: 430px;
+	}
+	.service__service-box {
+		position: relative;
+		width: 1250px;
+	}
+
+	/*====проекты===*/
+
+	.project .slide__wr {
+		padding-bottom: 100px;
+		padding-left: calc((100vw - 1600px) / 2 + 110px);
+	}
+	.project-box__item-img {
+		height: 350px;
+	}
+	.project__title {
+		margin-bottom: 45px;
+	}
+	.project__project-box {
+		height: 350px;
+	}
+
+	/*====о компании====*/
+
+	.about .slide__wr-wr + .slide__wr-wr {
+		max-width: 570px;
+	}
+	.about__img-right img{
+		width: 100%;
+	}
+
+	/*======контакты====*/
+
+	.contact__contact-text {
+		margin-top: 35px;
+	}
+	.contact__contact-form {
+		margin-top: 45px;
+	}
+	.contact .slide__wr {
+		padding-bottom: 40px;
+	}
+
+
+}
+
+@media screen and (max-width: 1599px){
+
+	/*===первый===*/
+	.header {
+		padding-left: calc((100vw - 1440px) / 2 + 110px);
+	}
+	.main-information__item-title {
+		font-size: 14px;
+	}
+	.main-information__item {
+		max-width: 190px;
+	}
+	.main-information__item + .main-information__item {
+		margin-left: 45px;
+	}
+	.main__main-information {
+		margin-left: 525px;
+		margin-bottom: 230px;
+	}
+
+	
+
+
+	/*====услуги====*/
+
+	.service__service-box {
+		width: 1215px;
+	}
+	.service .service-box__item .service-box__item-img-abs {
+		width: 760px;
+		height: 430px;
+	}
+
+
+	/*====проекты===*/
+
+	.project .slide__wr {
+		padding-left: calc((100vw - 1440px) / 2 + 110px);
+	}
+	.project-box__item-img {
+		height: 290px;
+	}
+	.project__project-box {
+		height: 290px;
+	}
+	.project-box__item-text {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+
+	/*====о компании====*/
+
+	.about .slide__wr-wr + .slide__wr-wr {
+		max-width: 555px;
+		margin-left: 42px;
+	}
+
+
+	/*======контакты====*/
+	.contact .slide__wr-wr + .slide__wr-wr {
+		margin-left: 135px;
+	}
+
+
+	
+}
+
+
+@media screen and (max-width: 1439px){
+
+	/*===первый===*/
+
+	.title {
+		font-size: 30px;
+		line-height: 42px;
+	}
+	.header {
+		padding-left: calc((100vw - 1200px) / 2 + 30px);
+	}
+	.header__contact {
+		padding: 29px 61px 34px 90px;
+	}
+	.main__main-information {
+		margin-left: 460px;
+		margin-bottom: 90px;
+	}
+	.slide__arrow-link {
+		margin-left: 45px;
+	}
+	.slide__arrow-number + .slide__arrow-number::before {
+		width: 250px;
+		left: -270px;
+	}
+	.slide__arrow-number + .slide__arrow-number {
+		margin-left: 290px;
+	}
+	.slide__arrow-number + .slide__arrow-number::after {
+		left: -270px;
+	}
+	.main .slide__arrow-number + .slide__arrow-number::after {
+		width: 50px;
+	}
+
+	/*====услуги====*/
+	.service-box__item-wr {
+		padding-right: 10px;
+		padding-bottom: 10px;
+	}
+	.service-box__item-text {
+		line-height: 12px;
+	}
+	.service-box__item-wr-wr {
+		width: 199px;
+		height: 110px;
+		padding: 10px 10px 0 10px;
+	}
+	.service__service-box {
+		width: 1000px;
+	}
+	.service .service-box__item .service-box__item-img-abs {
+		width: 581px;
+		height: 350px;
+	}
+	.service .slide__wr {
+		padding-top: 35px;
+	}
+	.service .slide__arrow-number + .slide__arrow-number::after {
+		width: 100px;
+	}
+
+
+	/*====проекты===*/
+
+	.project .slide__arrow-number + .slide__arrow-number::after {
+		width: 150px;
+	}
+	.project .slide__wr {
+		padding-left: calc((100vw - 1200px) / 2 + 30px);
+		padding-bottom: 50px;
+	}
+	.project-box__item-img {
+		height: 230px;
+	}
+	.project__project-box {
+		height: 230px;
+	}
+	.project__title {
+		margin-bottom: 30px;
+	}
+	.project-box__item-text {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+
+
+	/*====о компании====*/
+	.about .slide__arrow-number + .slide__arrow-number::after {
+		width: 200px;
+	}
+	.about__descr {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.about .slide__wr-wr {
+		max-width: 495px;
+	}
+	.about__text-advantages {
+		font-size: 14px;
+		line-height: 16px;
+		padding: 15px 135px 15px 121px;
+	}
+	.about .slide__wr-wr + .slide__wr-wr {
+		max-width: 460px;
+	}
+
+
+	/*======контакты====*/
+
+	.slide__arrow-number + .slide__arrow-number::after {
+		width: 250px;
+	}
+	.contact .slide__wr-wr + .slide__wr-wr {
+		max-width: 500px;
+	}
+	.contact-form__input {
+		padding: 10px 30px 10px 30px;
+	}
+	.contact-form__btn {
+		margin-top: 30px;
+	}
+	.contact-text__adress, .contact-text__phone, .contact-text__mail {
+		font-size: 18px;
+		line-height: 24px;
+		display: block;
+	}
+	.contact-text__call ~ .contact-text__call {
+		margin-top: 14px;
+	}
+	.contact-text__call {
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 10px;
+	}
+	.contact .slide__wr {
+		padding-bottom: 0;
+	}
+	.contact-form__btn {
+		padding: 15px 33px 15px 33px;
+	}
+	.contact__contact-text {
+		margin-top: 25px;
+	}
+	.contact .slide__wr-wr + .slide__wr-wr {
+		margin-left: 68px;
+	}
+	.contact__contact-form {
+		margin-top: 17px;
+	}
+
+
+}
+
+
+@media screen and (max-width: 1199px){
+	html{
+		overflow: initial;
+	}
+	.main{
+		height: 100%;
+	}
+	.main .header,
+	.service .header,
+	.project .header,
+	.about .header,
+	.contact .header{
+		display: none;
+	}
+	.main,
+	.service,
+	.project,
+	.about,
+	.contact{
+		overflow: hidden;
+	}
+	.header {
+		padding-left: 0;
+		display: block;
+		right: auto;
+		left: 0;
+		position: fixed;
+		width: auto;
+		z-index: 999;
+		background: #fff;
+		height: 100vh;
+		padding: 181px 100px 0 38px;
+	}
+	.header__nav {
+		display: block;
+		margin-left: 0;
+	}
+	.header__nav-item + .header__nav-item {
+		margin-left: 0;
+		margin-top: 28px;
+	}
+	.header__logo {
+		display: none;
+	}
+	.header__contact {
+		background: transparent;
+		padding: 0;
+		margin-left: 0;
+		padding-left: 35px;
+		position: absolute;
+		bottom: 68px;
+	}
+	.header__contact-phone {
+		color: #356ABC;
+	}
+	.header__contact-email {
+		color: #828282;
+	}
+	.header__nav {
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.mob-menu{
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		padding: 47px 18px 19px 18px;
+		z-index: 999;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+	.mob-menu-fix{
+		position: fixed;
+		background: #F2F2F2;
+		-webkit-animation: mob-menu-fix .3s ease;
+		        animation: mob-menu-fix .3s ease;
+	}
+	.mob-menu .phone-mob{
+		display: none;
+	}
+	.mob-menu-fix .btn-nav__line{
+		background: #000;
+	}
+	.mob-menu-fix .mob-menu__center-img2{
+		display: block;
+	}
+	.mob-menu-fix .mob-menu__center-img1{
+		display: none;
+	}
+	.mob-menu-fix-add .mob-menu__center-img2{
+		display: none;
+	}
+	.mob-menu-fix-add .mob-menu__center-img1{
+		display: block;
+	}
+	.mob-menu-fix .phone-mob{
+		display: block;
+	}
+	.mob-menu-fix .phone-mob1{
+		display: none;
+	}
+	.mob-menu-fix-add .phone-mob{
+		display: none;
+	}
+	.mob-menu-fix-add .phone-mob1{
+		display: block;
+	}
+	.mob-menu-fix-add .btn-nav__line{
+		background: #fff;
+	}
+	.mob-menu-fix-add{
+		background: transparent;
+	}
+	@-webkit-keyframes mob-menu-fix  {
+		0%{
+			-webkit-transform: translateY(-100%);
+			        transform: translateY(-100%);
+			opacity: 0;
+		}
+		
+		100%{
+			opacity: 1;
+			-webkit-transform: translateY(0);
+			        transform: translateY(0);
+		}
+	}
+	@keyframes mob-menu-fix  {
+		0%{
+			-webkit-transform: translateY(-100%);
+			        transform: translateY(-100%);
+			opacity: 0;
+		}
+		
+		100%{
+			opacity: 1;
+			-webkit-transform: translateY(0);
+			        transform: translateY(0);
+		}
+	}
+	.mob-menu-close{
+		color: #BDBDBD;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 24px;
+		line-height: 24px;
+		position: absolute;
+		left: 24px;
+		top: 78px;
+		cursor: pointer;
+	}
+	.mob-menu__center-img2{
+		display: none;
+	}
+	.nav__btn {
+		width: 32px;
+		height: 32px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		cursor: pointer;
+	}
+	.mob-menu__right{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+	.mob-menu__right-link{
+		display: block;
+	}
+	.mob-menu__right-link img{
+		display: block;
+	}
+	.main .header-mob__open{
+		display: block;
+		width: 100%;
+	}
+	.mob-menu .header__nav-link{
+		color: #333;
+	}
+	.mob-menu .header__contact-phone::before{
+		content: "";
+		position: absolute;
+		background-image: url(../img/header-contact-mob.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 21px;
+		height: 21px;
+		top: 0;
+		left: -35px;
+	}
+
+	/*===первый===*/
+
+	.main__main-information {
+		display: none;
+	}
+	.main .slide__wr {
+		padding-top: 0;
+	}
+	.main__title {
+		text-align: center;
+	}
+	.main__descr {
+		text-align: center;
+		margin: auto;
+	}
+	.mob-bg{
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: #000;
+		opacity: 0.4;
+		z-index: 0;
+	}
+	.main .slide__wr{
+		z-index: 5;
+	}
+	.slide__arrow-number{
+		display: none;
+	}
+	.slide__arrow-link {
+		margin-left: 0;
+	}
+	.slide__arrow {
+		right: auto;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		padding-right: 0;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+	}
+	.slide__arrow-arrows {
+		width: 30px;
+		height: 30px;
+		right: auto;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-transform: rotate(0deg) translateX(-50%);
+		    -ms-transform: rotate(0deg) translateX(-50%);
+		        transform: rotate(0deg) translateX(-50%);
+		top: 30px;
+		left: 50%;
+		margin: 0;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-ms-flex-line-pack: center;
+		    align-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+	.slide__arrow {
+		bottom: 91px;
+	}
+	.main__title {
+		font-size: 40px;
+		color: #FFFFFF;
+		margin-bottom: 23px;
+	}
+
+	/*====услуги====*/
+	.service .slide__wr {
+		padding-top: 0;
+	}
+	.service__service-box {
+		width: 100%;
+	}
+	.service .slide__wr {
+		padding-top: 0;
+	}
+	.service {
+		height: auto;
+		padding-top: 120px;
+		padding-bottom: 180px;
+		display: block;
+	}
+	.service .service-box__item .service-box__item-img-abs {
+		right: 0;
+	}
+	.service .service-box__item .service-box__item-img-abs {
+		width: 516px;
+		height: 350px;
+	}
+	.slide {
+		width: 100%;
+	}
+	.slide__arrow {
+		bottom: 91px;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		    -ms-transform: translateX(-50%);
+		        transform: translateX(-50%);
+	}
+	.service__title {
+		margin: auto;
+		text-align: center;
+		margin-bottom: 35px;
+	}
+	.service .slide__wr {
+		padding-left: 18px;
+		padding-right: 18px;
+	}
+	.project__title {
+		margin-bottom: 35px;
+		text-align: center;
+	}
+	.project-box__item-text {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	/*====проекты===*/
+
+	.project {
+		height: auto;
+	}
+	.project .slide__wr {
+		padding-left: 18px;
+		padding-right: 18px;
+		padding-top: 120px;
+		padding-bottom: 220px;
+	}
+
+
+	/*====о компании====*/
+	.about {
+		height: auto;
+	}
+	.about  .slide__wr {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		padding-top: 120px;
+		padding-right: 18px;
+		padding-left: 18px;
+		padding-bottom: 180px;
+	}
+	.about__descr {
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.about__text-advantages {
+		font-size: 12px;
+		line-height: 15px;
+		padding: 15px 25px 15px 112px;
+	}
+
+
+	/*======контакты====*/
+	.contact .slide__wr {
+		padding-left: 18px;
+		padding-right: 18px;
+		width: 100%;
+		padding-top: 120px;
+		padding-bottom: 116px;
+	}
+	.contact {
+		height: auto;
+	}
+	.contact-text__adress, .contact-text__phone, .contact-text__mail {
+		font-size: 16px;
+		line-height: 20px;
+		display: block;
+	}
+	.contact .slide__arrow{
+		display: none;
+	}
+	.contact-form__btn::after {
+		content: none;
+	}
+	.contact-form__btn{
+		text-align: center;
+	}
+
+
+}
+
+
+@media screen and (max-width: 979px){
+
+	/*===первый===*/
+	.title {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.main__title {
+		font-size: 30px;
+		margin-bottom: 9px;
+		line-height: 42px;
+	}
+	.main .slide__wr {
+		width: 100%;
+		padding-left: 18px;
+		padding-right: 18px;
+	}
+	.main__descr {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.slide__arrow-link {
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 18px;
+	}
+	.service__title {
+		margin-bottom: 24px;
+	}
+	.service {
+		padding-top: 70px;
+		padding-bottom: 137px;
+	}
+
+
+	/*====услуги====*/
+
+	.service__service-box{
+		display: none;
+	}
+	.service__service-box-add {
+		display: block;
+		width: 340px;
+		margin: auto;
+	}
+	.service-box__item-wr-wr {
+		width: 165px;
+		height: 160px;
+		padding: 23px 10px 0 10px;
+	}
+	.service__service-box-wr {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		padding-bottom: 160px;
+	}
+	.service-box__item:nth-child(2n) .service-box__item-wr{
+		padding-right: 0;
+	}
+	.service-box__item-text {
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.service .service-box__item .service-box__item-img-abs {
+		bottom: 0;
+		top: auto;
+		width: 340px;
+		height: 341px;
+	}
+
+
+	/*====проекты===*/
+	.project .slide__wr {
+		padding-top: 65px;
+		padding-bottom: 200px;
+	}
+	.project__title {
+		margin-bottom: 38px;
+		text-align: center;
+	}
+	.project__project-box {
+		height: auto;
+		display: block;
+	}
+	.project-box__item-img {
+		height: 200px;
+	}
+	.project-box__item {
+		width: 100%;
+		max-width: 500px;
+		margin: auto;
+	}
+	.project-box__item-img img {
+		-webkit-filter: grayscale(0);
+		        filter: grayscale(0);
+	}
+	.project-box__item:hover .project-box__item-img img {
+		width: 100%;
+		-webkit-filter: grayscale(0);
+		        filter: grayscale(0);
+	}
+	.project-box__item .project-box__item-text {
+		font-size: 16px;
+		line-height: 22px;
+		position: static;
+		width: 100%;
+		display: block;
+		-webkit-transform: translateY(0);
+		    -ms-transform: translateY(0);
+		        transform: translateY(0);
+		margin-top: 21px;
+		opacity: 1;
+	}
+	.project-box__item:hover:last-child .project-box__item-img img {
+		position: static;
+	}
+	.project-box__item + .project-box__item {
+		margin-top: 60px;
+	}
+
+
+
+	/*====о компании====*/
+
+	.about  .slide__wr {
+		display: block;
+		padding-top: 49px;
+		padding-bottom: 145px;
+	}
+	.about {
+		height: auto;
+		display: block;
+	}
+	.about .slide__wr-wr {
+		max-width: 100%;
+	}
+	.about .slide__wr-wr + .slide__wr-wr {
+		max-width: 100%;
+		margin-left: 0;
+	}
+	.about__img-left {
+		width: 60px;
+		height: 37px;
+		margin-bottom: 33px;
+		left: -8px;
+	}
+	.about__img-left img{
+		width: 100%;
+		height: 100%;
+	}
+	.about__title {
+		margin-bottom: 23px;
+	}
+	.about__descr {
+		font-size: 12px;
+		line-height: 18px;
+		margin-bottom: 48px;
+	}
+	.about__img-right {
+		height: 250px;
+		max-width: 340px;
+		margin: auto;
+		margin-bottom: 8px;
+	}
+	.about__img-right img{
+		width: 100%;
+		height: 100%;
+	}
+	.about__text-advantages {
+		font-size: 12px;
+		line-height: 16px;
+		padding: 11px 20px 19px 58px;
+		max-width: 340px;
+		margin: auto;
+	}
+	.about__text-advantages span {
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.about__text-advantages::before {
+		font-size: 35px;
+		line-height: 56px;
+		left: 15px;
+	}
+
+
+	/*======контакты====*/
+	.contact .slide__wr {
+		padding-top: 90px;
+		display: block;
+	}
+	.contact .slide__wr-wr {
+		max-width: 100%;
+	}
+	.contact .slide__wr-wr + .slide__wr-wr {
+		max-width: 100%;
+		margin-left: 0;
+	}
+	.contact-text__call {
+		font-size: 12px;
+		line-height: 19px;
+		margin-bottom: 10px;
+	}
+	.contact-text__adress, .contact-text__phone, .contact-text__mail {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.contact__contact-text {
+		margin-top: 29px;
+	}
+	.contact__contact-form {
+		margin-top: 24px;
+	}
+	.contact__title {
+		text-align: center;
+	}
+	.contact .slide__wr-wr + .slide__wr-wr {
+		max-width: 100%;
+		margin-top: 110px;
+	}
+	.filter__checkbox-title {
+		font-size: 10px;
+	}
+	.filter__checkbox-link {
+		font-size: 10px;
+	}
+	.filter__checkbox-fake {
+		position: relative;
+		width: 28px;
+		height: 28px;
+		margin-right: 10px;
+		font-size: 24px;
+		line-height: 29px;
+	}
+
+
+}
+
+
+@media screen and (max-width: 639px){
+
+	/*===первый===*/
+
+
+	/*====услуги====*/
+
+
+	/*====проекты===*/
+
+
+	/*====о компании====*/
+
+
+	/*======контакты====*/
+
+	/*=====попап===*/
+
+	.popup__wr {
+		width: 336px;
+		height: 283px;
+	}
+	.popup__title {
+		font-size: 20px;
+		line-height: 28px;
+		margin-top: 71px;
+		margin-bottom: 10px;
+	}
+	.popup__descr {
+		font-size: 14px;
+		line-height: 18px;
+		max-width: 282px;
+		margin: auto;
+	}
+	.popup__btn {
+		font-size: 15px;
+		line-height: 40px;
+		width: 60px;
+		height: 40px;
+		margin-top: 27px;
+	}
+
+
+}
+
+
+@media screen and (max-width: 479px){
+
+	/*===первый===*/
+
+
+	/*====услуги====*/
+
+
+	/*====проекты===*/
+
+
+	/*====о компании====*/
+
+
+	/*======контакты====*/
+
+
+}
+
+
+@media screen and (max-width: 320px){
+
+	/*===первый===*/
+
+
+	/*====услуги====*/
+
+
+	/*====проекты===*/
+
+
+	/*====о компании====*/
+
+
+	/*======контакты====*/
+
+
+}
